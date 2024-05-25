@@ -1,0 +1,72 @@
+.device{
+  width: 300px;
+  height: 500px;
+  border-radius: 22px;
+  border: 4px solid #202020;
+  padding: 1rem;
+  
+  p{
+    font-size: small;
+    width: 200px;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    
+    .mensaje{
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      overflow-y: auto;
+
+      .receptor{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .emisor{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+      }
+    }
+
+    .buttons-options{
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+
+      button{
+        border: none;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        background-color: #29d889;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px; /* Ancho del scrollbar vertical */
+  height: 12px; /* Altura del scrollbar horizontal */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color de fondo del track */
+  border-radius: 10px; /* Radio de borde */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color del scrollbar */
+  border-radius: 10px; /* Radio de borde */
+  border: 3px solid #f1f1f1; /* Borde alrededor del thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color del thumb en hover */
+}

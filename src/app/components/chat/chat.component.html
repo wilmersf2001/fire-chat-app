@@ -1,0 +1,43 @@
+<div class="text-end">
+  <button type="button" class="btn btn-danger" (click)="signOut()">
+    <i class="fa-solid fa-right-from-bracket"></i>
+  </button>
+</div>
+<div class="device mt-3">
+  <h3>Chat</h3>
+  <hr />
+  <form class="content" [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div id="chat-mensajes" class="mensaje">
+      @for (chat of chats; track chat.uid) {
+      <div
+        [ngClass]="{
+          receptor: chat.uid === user.uid,
+          emisor: chat.uid !== user.uid
+        }"
+      >
+        <span
+          class="badge"
+          [ngClass]="{
+            'text-bg-success': chat.uid === user.uid,
+            'text-bg-primary': chat.uid !== user.uid
+          }"
+          >{{ chat.autor }}</span
+        >
+        <p>{{ chat.message }}</p>
+      </div>
+      }
+    </div>
+    <div class="buttons-options mt-3">
+      <input
+        class="form-control form-control-sm"
+        type="text"
+        placeholder="Escribe un mensaje"
+        formControlName="message"
+        aria-label=".form-control-sm example"
+      />
+      <button type="submit">
+        <i class="fa-solid fa-paper-plane"></i>
+      </button>
+    </div>
+  </form>
+</div>

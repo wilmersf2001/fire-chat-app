@@ -1,0 +1,20 @@
+[debug] [2024-05-23T15:47:44.555Z] ----------------------------------------------------------------------
+[debug] [2024-05-23T15:47:44.556Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2024-05-23T15:47:44.557Z] CLI Version:   13.10.0
+[debug] [2024-05-23T15:47:44.557Z] Platform:      win32
+[debug] [2024-05-23T15:47:44.557Z] Node Version:  v20.11.0
+[debug] [2024-05-23T15:47:44.557Z] Time:          Thu May 23 2024 10:47:44 GMT-0500 (hora estándar de Perú)
+[debug] [2024-05-23T15:47:44.557Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2024-05-23T15:58:38.550Z] ----------------------------------------------------------------------
+[debug] [2024-05-23T15:58:38.552Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2024-05-23T15:58:38.552Z] CLI Version:   13.10.0
+[debug] [2024-05-23T15:58:38.552Z] Platform:      win32
+[debug] [2024-05-23T15:58:38.552Z] Node Version:  v20.11.0
+[debug] [2024-05-23T15:58:38.552Z] Time:          Thu May 23 2024 10:58:38 GMT-0500 (hora estándar de Perú)
+[debug] [2024-05-23T15:58:38.552Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
